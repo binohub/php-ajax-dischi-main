@@ -40,19 +40,19 @@
                 </nav>
             </div>
         </header>
-
+        
         <div class="cards">
             <div class="container">
                 <div class="row">
 
                     <div class="col-3 py-2"
-                    v-for="(element, index) in dischiElement">
+                    v-for="(data, index) in database">
 
                         <div class="myCard d-flex flex-column align-items-center">
-                            <img class="img-fluid" :src="element.image" alt="card logo">
-                            <h1 class="titleCard">{{element.title}}</h1>
-                            <span class="AuthorCard">{{element.author}}</span>
-                            <span class="yearCard">{{element.year}}</span>
+                            <img class="img-fluid" :src="data.image" alt="Data image of " :alt="data.title">
+                            <h1 class="titleCard">{{data.title}}</h1>
+                            <span class="AuthorCard">{{data.author}}</span>
+                            <span class="yearCard">{{data.year}}</span>
                         </div>
 
                     </div>

@@ -1,5 +1,5 @@
 <?php
-$dischiElements = [
+$database = [
     [
         'image' => 'https://i.pinimg.com/564x/af/43/42/af43426fe1114f93dd85140e2aab5bf9.jpg',
         'title' => 'zoro',
